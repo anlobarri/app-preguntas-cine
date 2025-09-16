@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pregunta de Cine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <div class="header-row">
+      <h1 class="title">Trivia de Cine</h1>
+      <div id="score-display" class="score">Puntos: 0</div>
+    </div>
+
+    <section id="question-card" class="card">
+      <p id="question" class="question">¿Cuál de estas películas ganó el Óscar a Mejor Película en 1994?</p>
+
+      <div id="answers" class="answers">
+        <button class="answer">Pulp Fiction</button>
+        <button class="answer">Forrest Gump</button>
+        <button class="answer">The Shawshank Redemption</button>
+        <button class="answer">Four Weddings and a Funeral</button>
+      </div>
+
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+
+      <div class="controls">
+        <!-- El avance será automático; botón eliminado -->
+      </div>
+    </section>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
